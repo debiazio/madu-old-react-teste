@@ -1,0 +1,58 @@
+{
+  "store.custom#catalogo": {
+    "blocks": [
+      "flex-layout.row#banner-catalogo",
+      "flex-layout.row#catalogo",
+      "flex-layout.row#catalogo-download"
+    ]
+  },
+  "flex-layout.row#banner-catalogo":{
+    "props": {
+      "blockClass": "banner-institucionais",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#banner-catalogo"
+    ]
+  },
+  "rich-text#banner-catalogo":{
+    "props": {
+      "blockClass": "titulo-institucionais",
+      "text": "## Catálogo"
+    }
+  },
+  "flex-layout.row#catalogo": {
+    "props": {
+      "blockClass": "leitor-catalogo"
+    },
+    "children": [
+      "iframe#catalogo"
+    ]
+  },
+  "iframe#catalogo": {
+    "props": {
+      "src": "https://online.fliphtml5.com/busks/ykrp/",
+      "width": "100%",
+      "height": "800px"
+    }
+  },
+  "flex-layout.row#catalogo-download": {
+    "props": {
+      "blockClass": "catalogo-download"
+    },
+    "children": [
+      "link#catalogo-download"
+    ]
+  },
+  "link#catalogo-download": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/MDU_Catalogo-de-Produtos-Web-Ajuste.pdf",
+      "label": "Fazer download do PDF",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "blockClass": "catalogo-download"
+    }
+  }
+}
+// <div style="position:relative;padding-top:max(60%,324px);width:100%;height:0;"><iframe style="position:absolute;border:none;width:100%;height:100%;left:0;top:0;" src="https://online.fliphtml5.com/busks/ykrp/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe></div>

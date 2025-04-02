@@ -1,0 +1,96 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "flex-layout.col#product-info-summary"
+    ]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "add-to-list-btn",
+      "flex-layout.row#add-to-cart-summary"
+    ]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "maxHeight": 400,
+      "width":{
+        "desktop":"300",
+        "mobile": "200"
+      },
+      "height":{
+        "desktop":"380",
+        "mobile": "200"
+      },
+      "hoverImage": {
+        "label": "hover",
+        "criteria": "label"
+      }
+    }
+  },
+  "add-to-list-btn":{
+    "props":{
+      "blockClass":"wishlist-shelf"
+    }
+  },
+  "flex-layout.row#add-to-cart-summary":{
+    "children": [
+      "product-summary-sku-selector",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "add-to-cart-summary",
+      "fullWidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "colSizing": "auto"
+    }
+  },
+  "product-summary-sku-selector":{
+    "props": {
+      "visibleVariations": ["Tamanho"]
+    }
+  },
+
+  "flex-layout.col#product-info-summary":{
+    "children": [
+      "product-summary-name",
+      "product-list-price#summary",
+      "product-selling-price#summary",
+      "product-spot-price#summary",
+      "product-installments#summary"
+    ],
+    "props": {
+      "blockClass":"product-info-summary"
+    }
+  },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message":"De: {listPriceValue}"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message":"{sellingPriceValue}"
+    }
+  },
+  "product-spot-price#summary":{
+    "props":{
+      "blockClass": "summary",
+      "message":"ou {spotPriceValue} à vista",
+      "alwaysShow":true
+    }
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message":"{hasMoreThanOne, select, true { em {installmentsNumber}X  {installmentValue} sem juros} false{ }}"
+    }
+  }
+}

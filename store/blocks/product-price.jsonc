@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#selling-price": {
+    "props": {
+      "blockClass": "selling-price",
+      "colSizing": "auto"
+    },
+    "children": [
+      "product-selling-price",
+      "product-installments"
+    ]
+  },
+  "product-installments":{
+    "props": {
+      "message": "{hasMoreThanOne, select, true { em {installmentsNumber}X  {installmentValue} sem juros} false{ }}"
+    }
+  },
+
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "blockClass": "list-price-savings"
+    },
+    "children": [
+      "product-list-price"
+    ]
+  }
+}

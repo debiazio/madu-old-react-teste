@@ -1,0 +1,126 @@
+/* HOME */
+/* BANNER */
+.paginationDotsContainer--carousel{
+  margin:0 0 25px;
+  align-items:center;
+}
+.paginationDot--carousel{
+  width:9px !important;
+  height:9px !important;
+  background:#fff;
+}
+.paginationDot--carousel--isActive{
+  background:url(assets/dots-active.png) no-repeat transparent;
+  width:21px !important;
+  height:21px !important;
+}
+
+/* PRATELEIRA */
+.sliderLayoutContainer--shelf{
+  margin-bottom:70px;
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.paginationDotsContainer--shelf{
+  display: none;
+  /* bottom:-70px;
+  margin:41px 0 29px; */
+}
+.paginationDot--shelf{
+  width:32px !important;
+  height:7px !important;
+  background:#D7D7D7;
+  border-radius:10px;
+}
+.paginationDot--shelf--isActive{
+  background:#D9D8D7;
+}
+.sliderArrows--shelf{
+  background:#fff !important;
+  border-radius:50%;
+  margin:0;
+  padding:11px 11px 12px 17px;
+  border:1px solid #E2E2E2;
+  top:28%;
+}
+.caretIcon--shelf{
+  width:16px;
+  height:21px;
+}
+.sliderLeftArrow--shelf{
+  left:-10px;
+}
+.sliderRightArrow--shelf{
+  right:-10px;
+}
+
+.paginationDotsContainer--shelf-prateleira-final{
+  display: none;
+}
+
+.sliderTrack--shelf-prateleira-final{
+  gap: 35px;
+  padding: 20px 0;
+}
+
+.slide--shelf-prateleira-final--visible{
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #D7D7D7;
+}
+.slide--shelf-prateleira-final--visible:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* MADE FOR YOU */
+.sliderTrack--slider-avaliacoes{
+  gap: 20px;
+  padding: 50px 30px;
+}
+
+.slide--slider-avaliacoes{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #D7D7D7;
+  padding: 20px;
+  transition: scale 0.3s ease;
+}
+
+.slide--slider-avaliacoes:hover{
+  scale: 1.05;
+  transition: scale 0.3s ease-in-out;
+}
+
+.sliderLeftArrow--slider-avaliacoes{
+  margin-left: -10px;
+}
+
+.sliderRightArrow--slider-avaliacoes{
+  margin-right: -40px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px){
+  .sliderTrack--slider-avaliacoes{
+    gap: 30px;
+    padding: 20px 20px;
+  }
+
+  .slide--slider-avaliacoes{
+    padding: 8px;
+  }
+  
+  .sliderTrack--shelf{
+    gap:10px;
+  }
+
+  .sliderLayoutContainer--shelf-prateleira-final{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  .sliderTrack--shelf-prateleira-final{
+    gap: 5px;
+    padding: 10px 0;
+  }
+}

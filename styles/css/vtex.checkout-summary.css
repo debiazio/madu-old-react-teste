@@ -1,0 +1,17 @@
+.summarySmallContent {
+    border-top:1px solid #D9D8D7;
+}
+.summarySmallDisclaimer{
+    display:none;
+}
+.summaryItemContainer{
+    margin:22px 0 23px;
+}
+.summaryItemLabel{
+    font-size:14px;
+    color:#3A3434;
+}
+.price{
+    color:#D9D8D7;
+    font:16px "Montserrat Semibold";
+}

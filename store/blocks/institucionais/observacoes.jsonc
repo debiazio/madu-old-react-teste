@@ -1,0 +1,37 @@
+{
+  "store.custom#observacoes": {
+    "blocks": [
+      "flex-layout.row#banner-observacoes",
+      "flex-layout.row#observacoes"
+    ]
+  },
+  "flex-layout.row#banner-observacoes":{
+    "props": {
+      "blockClass": "banner-institucionais",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#banner-observacoes"
+    ]
+  },
+  "rich-text#banner-observacoes":{
+    "props": {
+      "blockClass": "titulo-institucionais",
+      "text": "## Observações"
+    }
+  },
+  "flex-layout.row#observacoes":{
+    "props": {
+      "blockClass": "content-institucionais"
+    },
+    "children": [
+      "rich-text#observacoes"
+    ]
+  },
+  "rich-text#observacoes":{
+    "props": {
+      "blockClass": "texto-intitucionais",
+      "text": "## **Observações**\n\n• Consulte a fábrica para eventuais dúvidas.\n• Consulte o manual do produto e/ou website para mais informações técnicas, instruções de montagem, uso e cuidados recomendados;\n• Os produtos e seus acessórios poderão ser fornecidos montados ou desmontados, mediante pedido antecipado e de acordo com as condições de embalagem e transporte definidas pela fábrica;\n• Imagens meramente ilustrativas. A fábrica reserva-se ao direito de alterações sem comunicação prévia;\n• As dimensões são medidas aproximadas totais dos produtos básicos, não considerando eventuais acessórios;\n• As imagens poderão apresentar diferenças de tonalidade em comparação aos produtos reais;\n• Eventuais personalizações deverão ser previamente acordadas com a fábrica;\n• Produtos não acompanham: filtro de linha, réguas de tomadas, cilindros de oxigênio, caixas agrícolas, cabides, pastas suspensas, caixa para perfurocortantes, caixa de luvas, rolos de papel toalha, lençóis em rolo, lacres, líquidos diversos, computadores, monitores, cardioversores e outros não especificados;\n• Produtos dispensados de registros na ANVISA, de acordo com a determinação da GGTPS – Gerência Geral de Produtos para Saúde;\n"
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1-desktop"
+    ],
+    "props": {
+      "blockClass": "newsletter-row"
+    }
+  },
+  "flex-layout.col#footer-1-desktop": {
+    "children": [
+      "rich-text#title-newsletter",
+      "newsletter-form"
+    ],
+    "props": {
+      "blockClass": "newsletter-row"
+    }
+  },
+  "rich-text#title-newsletter": {
+    "props": {
+      "text": "#### RECEBA NOVIDADES E PROMOÇÕES DA MAD.U",
+      "blockClass": "title-newsletter"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Nome"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "E-mail"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Enviar"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-logo-footer",
+      "flex-layout.col#footer-atendimento",
+      "flex-layout.col#footer-institucional",
+      "flex-layout.col#footer-siga-nos"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer-logo-footer": {
+    "children": [
+      "image#logo-branca-footer",
+      "rich-text#subtitle-logo-madu"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop"
+    }
+  },
+  "image#logo-branca-footer": {
+    "props": {
+      "src": "assets/logo-madu-branca.png",
+      "alt": "Logo",
+      "blockClass": "logo-branca-footer",
+      "maxWidth": "200px"
+    }
+  },
+  "rich-text#subtitle-logo-madu": {
+    "props": {
+      "text": "A maior linha de mobiliário técnico do mundo!",
+      "blockClass": "subtitle-logo-madu"
+    }
+  },
+  "flex-layout.col#footer-atendimento": {
+    "children": [
+      "rich-text#title-footer-4",
+      "flex-layout.row#footer-email",
+      "flex-layout.row#footer-whatsapp",
+      "flex-layout.row#footer-endereco",
+      "flex-layout.row#footer-telefone"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop"
+    }
+  },
+  "rich-text#title-footer-4": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.row#footer-email": {
+    "props": {
+      "blockClass": "content-footer-atendimento",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#email-footer",
+      "link#e-mail-footer"
+    ]
+  },
+  "image#email-footer": {
+    "props": {
+      "src": "assets/mail.svg",
+      "alt": "logo de email",
+      "blockClass": "icones-footer"
+    }
+  },
+  "link#e-mail-footer": {
+    "props": {
+      "label": "comercial@madumfm.com.br",
+      "href": "mailto:comercial@madumfm.com.br",
+      "target": "_blank",
+      "blockClass": "link-footer"
+    }
+  },
+  "flex-layout.row#footer-whatsapp": {
+    "props": {
+      "blockClass": "content-footer-atendimento",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#footer-whatsapp",
+      "link#fone-footer"
+    ]
+  },
+  "image#footer-whatsapp": {
+    "props": {
+      "src": "assets/whatsapp.svg",
+      "alt": "Ícone whatsapp",
+      "blockClass": "icones-footer"
+    }
+  },
+  "link#fone-footer": {
+    "props": {
+      "label": "(41) 99971-0465",
+      "href": "https://api.whatsapp.com/send?phone=5541999710465",
+      "target": "_blank",
+      "blockClass": "link-footer"
+    }
+  },
+  "flex-layout.row#footer-endereco": {
+    "props": {
+      "blockClass": "content-footer-atendimento",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#endereco-footer",
+      "link#endereco-footer"
+    ]
+  },
+  "image#endereco-footer": {
+    "props": {
+      "src": "assets/maps-and-flags.png",
+      "alt": "logo de email",
+      "blockClass": "icones-footer"
+    }
+  },
+  "link#endereco-footer": {
+    "props": {
+      "href": "https://www.google.com/maps/dir/?api=1&destination=Rua+Emma+Rohrsetzer,+1011,+Pinhais+-+Grande+Curitiba+-+PR,+83324-190",
+      "blockClass": "link-footer"
+    },
+    "children": [
+      "rich-text#endereco"
+    ]
+  },
+  "rich-text#endereco": {
+    "props": {
+      "text": "Rua Emma Rohrsetzer, 1011, Pinhais - Grande\n Curitiba - PR, 83324-190",
+      "blockClass": "link-footer"
+    }
+  },
+  "flex-layout.row#footer-telefone": {
+    "props": {
+      "blockClass": "content-footer-atendimento",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-telefone-footer",
+      "link#fone-telefone-footer"
+    ]
+  },
+  "image#icone-telefone-footer": {
+    "props": {
+      "src": "assets/phone-receiver-silhouette.png",
+      "alt": "Ícone telefone",
+      "blockClass": "icones-footer"
+    }
+  },
+  "link#fone-telefone-footer": {
+    "props": {
+      "label": "0800 721 8533",
+      "href": "tel:08007218533",
+      "blockClass": "link-footer"
+    }
+  },
+  "flex-layout.col#footer-institucional": {
+    "children": [
+      "rich-text#title-footer-3",
+      "vtex.menu@2.x:menu#institucional"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop"
+    }
+  },
+  "rich-text#title-footer-3": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.col#footer-siga-nos": {
+    "children": [
+      "rich-text#title-footer-siga-nos",
+      "flex-layout.row#redes-sociais",
+      "flex-layout.row#grupomfm"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-2-desktop-1"
+    }
+  },
+  "rich-text#title-footer-siga-nos": {
+    "props": {
+      "text": "Siga-nos",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.row#redes-sociais": {
+    "props": {
+      "blockClass": "conteiner-redes-sociais"
+    },
+    "children": [
+      "image#footer-facebook",
+      "image#footer-instagram",
+      "image#footer-vimeo",
+      "image#footer-linkedin"
+    ]
+  },
+  "image#footer-facebook": {
+    "props": {
+      "blockClass": "logo-rede-social",
+      "src": "assets/facebook-logo-in-circular-shape.png",
+      "alt": "Facebook",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.facebook.com/mfmmadu"
+      }
+    }
+  },
+  "image#footer-instagram": {
+    "props": {
+      "blockClass": "logo-rede-social",
+      "src": "assets/social.png",
+      "alt": "Instagram",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.instagram.com/madumfm/"
+      }
+    }
+  },
+  "image#footer-vimeo": {
+    "props": {
+      "blockClass": "logo-rede-social",
+      "src": "assets/vimeo.png",
+      "alt": "Vimeo",
+      "link": {
+        "openNewTab": true,
+        "url": "https://vimeo.com/user154510707"
+      }
+    }
+  },
+  "image#footer-linkedin": {
+    "props": {
+      "blockClass": "logo-rede-social",
+      "src": "assets/linkedin.png",
+      "alt": "Linkedin",
+      "link": {
+        "openNewTab": true,
+        "url": "https://www.linkedin.com/company/madumfm/"
+      }
+    }
+  },
+  "flex-layout.row#grupomfm": {
+    "props": {
+      "blockClass": "logo-grupo-mfm"
+    },
+    "children": [
+      "link#link-grupo-mfm"
+    ]
+  },
+  "link#link-grupo-mfm": {
+    "props": {
+      "blockClass": "link-grupo-mfm",
+      "href": "https://grupomfm.com.br"
+    },
+    "children": [
+      "image#logo-grupomfm"
+    ]
+  },
+  "image#logo-grupomfm": {
+    "props": {
+      "src": "assets/logo-nav.png",
+      "blockClass": "logo-nav-grupo-mfm"
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#footer-3-desktop",
+      "image#payments",
+      "flex-layout.col#footer-seguranca"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer-3-desktop": {
+    "props": {
+      "text": "Copyright © 2025 - Todos os direitos reservados.",
+      "blockClass": "credits"
+    }
+  },
+  "image#payments": {
+    "props": {
+      "src": "assets/bandeiras-pgto.webp",
+      "alt": "Payment",
+      "blockClass": "footer-payment"
+    }
+  },
+  "flex-layout.col#footer-seguranca": {
+    "children": [
+      "flex-layout.row#footer-2-desktop-6"
+    ],
+    "props": {
+      "blockClass": "footer-seguranca-desktop"
+    }
+  },
+  "flex-layout.row#footer-2-desktop-6": {
+    "children": [
+      "image#footer-image-1",
+      "image#footer-image-2",
+      "image#footer-image-3"
+    ],
+    "props": {
+      "blockClass": "footer-2-desktop-6",
+      "colSizing": "auto"
+    }
+  },
+  "image#footer-image-1": {
+    "props": {
+      "blockClass": "footer-logos-linha-2",
+      "src": "assets/VTEX_logo.png",
+      "alt": "VTEX",
+      "link": {
+        "openNewTab": true,
+        "url": "#"
+      }
+    }
+  },
+  "image#footer-image-2": {
+    "props": {
+      "blockClass": "footer-logos-linha-2",
+      "src": "assets/lets-encrypt.png",
+      "alt": "Let's Encrypt",
+      "link": {
+        "openNewTab": true,
+        "url": "#"
+      }
+    }
+  },
+  "image#footer-image-3": {
+    "props": {
+      "blockClass": "footer-logos-linha-2",
+      "src": "assets/pagarme.svg",
+      "alt": "Pagar.Me",
+      "link": {
+        "openNewTab": true,
+        "url": "#"
+      }
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "store.custom#contato": {
+    "path": "/contato"
+  },
+  "store.custom#politica-de-entregas": {
+    "path": "/politica-de-entregas"
+  },
+  "store.custom#trocas-e-devolucoes": {
+    "path": "/trocas-e-devolucoes"
+  },
+  "store.custom#observacoes": {
+    "path": "/observacoes"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#formas-de-pagamento": {
+    "path": "/formas-de-pagamento"
+  },
+  "store.custom#made-for-you": {
+    "path": "/made-for-you"
+  },
+  "store.custom#nossas-linhas": {
+    "path": "/nossas-linhas"
+  },
+  "store.custom#catalogo":{
+    "path": "/catalogo"
+  }
+}

@@ -1,0 +1,357 @@
+/* TOPO */
+.paragraph--texto-notification-bar {
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+  margin: 10px 25px 10px 5px;
+}
+
+.container--shelfTitle {
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-size: 28px;
+  font-weight: 400;
+  color: #3A3434;
+  margin: 18px 0 24px;
+}
+
+.container--texto-notification-bar {
+  text-wrap-mode: nowrap;
+}
+
+.link--texto-notification-bar {
+  text-decoration: none;
+  color: white;
+}
+
+/* MADU ONE  */
+.container--texto-madu-cat {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* CATEGORIAS FINAL HOME  */
+.paragraph--categorias-final {
+  font-family: "Montserrat Bold";
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -.6px;
+  color: #000;
+}
+
+.paragraph--titulo-categorias {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+.paragraph--texto-modal {
+  font-size: 16px;
+  font-family: "Montserrat Semibold";
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--texto-modal {
+  text-align: justify;
+}
+
+.container--titulo-modal {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-modal {
+  background-color: #153B64;
+  font-family: "Montserrat";
+  font-weight: 600;
+  fill: #FFF;
+  color: #FFF;
+  border-radius: 30px 30px 30px 30px;
+  padding: 14px;
+  font-size: 13px;
+}
+
+.paragraph--titulo-modal:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* INSTITUCIONAIS */
+.strong--texto-intitucionais {
+  font-size: 27px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.container--titulo-institucionais {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper--titulo-institucionais,
+.heading--titulo-institucionais {
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.paragraph--conteudo-institucionais {
+  font-size: 15px;
+  color: #3A3434;
+  margin: 0;
+}
+
+/* CONTATO  */
+.paragraph--whatsapp-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.paragraph--whatsapp-text,
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+
+.paragraph--contato-titulo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.1;
+  margin: 5px;
+}
+
+.flexColChild--contato-col1 {
+  font-size: 16px;
+}
+
+/* RODAPÉ */
+.paragraph--subtitle-logo-madu {
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.paragraph--link-footer {
+  color: white;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.paragraph--link-footer:hover {
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+.container--title-newsletter {
+  justify-content: center;
+}
+
+.heading--title-newsletter {
+  font-family: "Montserrat Semibold";
+  font-size: 18px;
+  letter-spacing: -.6px;
+  color: #242424;
+}
+
+.container--credits {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph--credits {
+  margin: 9px 0 13px;
+  color: white;
+  font-size: 12px;
+}
+
+.paragraph--title-footer {
+  margin: 0 0 14px;
+  color: white;
+  font: 14px "Montserrat Semibold";
+}
+
+.paragraph--subtitle-logo-madu {
+  color: white;
+}
+
+/* PLP */
+.container--notfound {
+  justify-content: center;
+}
+
+.paragraph--notfound {
+  font-size: 28px;
+  font-weight: 400;
+  color: #3A3434;
+  margin: 18px 0 24px;
+}
+
+/* PDP */
+.container--valor-unitario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paragraph--label-cep,
+.wrapper--texto-metodo-pgto-pdp {
+  white-space: nowrap;
+}
+
+.paragraph--texto-metodo-pgto-pdp {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph--product-description {
+  margin: 0;
+  color: #3A3434;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.paragraph--guia-de-medidas {
+  margin: 10px 0 20px;
+  font-size: 13px;
+  color: #3A3434;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.container--produtos-relacionados {
+  justify-content: center;
+}
+
+.paragraph--produtos-relacionados {
+  margin: 48px 0 27px;
+  font-size: 28px;
+  color: #3A3434;
+}
+
+/* INSTITUCIONAIS */
+.wrapper--texto-intitucionais {
+  color: #202020;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+
+/* MADE FOR YOU */
+.wrapper--texto--made-for-you {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link--texto-intitucionais {
+  text-decoration: none;
+  color: #000;
+}
+
+.paragraph--avaliacao-nome {
+  margin: 10px 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 14px;
+  overflow: hidden;
+  padding-right: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.paragraph--avaliacao-data {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  opacity: 0.5;
+  font-size: 11.2px
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .wrapper--texto-intitucionais{
+    width: 100%;
+  }
+  
+  .strong--texto-intitucionais {
+    font-size: 15px;
+  }
+
+  .wrapper--texto-modal-modal{
+    padding: 50px;
+  }
+
+  .container--credits {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexCol--footer-2-desktop {
+    margin-left: 15px;
+  }
+
+  .paragraph--subtitle-logo-madu {
+    margin-left: 0;
+  }
+
+  .subtitle-logo-madu {
+    font-size: 10px;
+  }
+
+  .headingLevel2--shelfTitle {
+    font-size: 20px;
+    margin: 16px 0 14px;
+  }
+
+  .heading--title-newsletter {
+    margin: 0 0 32px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .paragraph--link-footer {
+    font-size: 12px;
+  }
+
+  .paragraph--title-footer {
+    font: 12px "Montserrat Semibold";
+    color: white;
+    margin: 20px 0px;
+  }
+
+  .paragraph--produtos-relacionados {
+    margin: 38px 0 14px;
+    font-size: 20px;
+  }
+
+  /* notification bar */
+  .container--texto-notification-bar {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* TEXTO CATEGORIAS */
+  .paragraph--titulo-categorias {
+    font-size: 12px;
+
+  }
+}

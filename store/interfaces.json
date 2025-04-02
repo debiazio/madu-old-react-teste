@@ -1,0 +1,6 @@
+{
+    "product-similars":{
+        "component": "productsimilars",
+        "render": "client"
+    }
+}

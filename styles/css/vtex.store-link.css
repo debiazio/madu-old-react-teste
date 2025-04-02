@@ -1,0 +1,91 @@
+.childrenContainer--whats-header{
+  display: flex;
+}
+
+.link--instagramTitle{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-size:28px;
+    color:#3A3434;
+    margin:46px 0 27px;
+}
+.link--link-footer{
+    font-size:13px;
+    color:#3A3434;
+    text-decoration:none;
+    display:block;
+    margin-left: 10px;
+}
+.link--link-categorias{
+  text-decoration: none;
+}
+
+.link--whats-header{
+  text-decoration: none;
+}
+
+/* MADU ONE  */
+.link--link-ver-mais{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link--catalogo-download{
+  text-decoration: none;
+}
+
+.label--catalogo-download,
+.label--link-ver-mais{
+  background-color: #153B64;
+  font-family: "Montserrat";
+  font-weight: 600;
+  fill: #FFF;
+  color: #FFF;
+  border-radius: 30px 30px 30px 30px;
+  padding: 15PX;
+}
+
+.label--link-ver-mais:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* RODAPÉ  */
+.label--link-footer{
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.label--link-footer:hover{
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+/* CONTATO  */
+.link--link-contato{
+  text-decoration: none;
+}
+
+.childrenContainer--link-contato{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px){
+    .link--instagramTitle{
+        margin:21px 0 17px;
+    }
+
+    .childrenContainer--link-categorias{
+      border-bottom: 1px solid #DFDFDF;
+    }
+
+    .childrenContainer--link-grupo-mfm{
+      margin-top: 20px;
+    }
+}

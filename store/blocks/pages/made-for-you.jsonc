@@ -1,0 +1,614 @@
+{
+  "store.custom#made-for-you": {
+    "blocks": [
+      "flex-layout.row#made-for-you",
+      "flex-layout.row#banner-final",
+      "flex-layout.row#avaliacoes"
+    ]
+  },
+  "flex-layout.row#made-for-you": {
+    "props": {
+      "blockClass": "page-linha-made-for-you"
+    },
+    "children": [
+      "flex-layout.col#page-imagem--made-for-you",
+      "flex-layout.col#page-texto--made-for-you"
+    ]
+  },
+  "flex-layout.col#page-imagem--made-for-you": {
+    "children": [
+      "image#imagem--made-for-you"
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "page-imagem--made-for-you"
+    }
+  },
+  "image#imagem--made-for-you": {
+    "props": {
+      "src": "assets/future-mad-removebg-preview.png",
+      "blockClass": "imagem--made-for-you"
+    }
+  },
+  "flex-layout.col#page-texto--made-for-you": {
+    "children": [
+      "rich-text#texto--made-for-you",
+      "link#page-link--made-for-you"
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "page-texto--made-for-you"
+    }
+  },
+  "rich-text#texto--made-for-you": {
+    "props": {
+      "text": "A **MAD.U** inova com **a maior linha de mobiliário técnico do mundo**. São milhões de possibilidades de configurações, através de módulos, acessórios e cores, criando o mobiliário perfeito para as mais diversas necessidades.\n\nIntegrante do **Grupo MFM**, que atua a mais de **30 anos** no segmento de fabricação de equipamentos da área de saúde, a **MAD.U** traz ao mercado um produto pensado, desenvolvido e **fabricado 100% no Brasil**.\n\nContamos com uma completa infraestrutura de design, engenharia, produção, qualidade, marketing e demais setores, entregando ao mercado produtos inovadores e fabricados com qualidade assegurada.\n\nUm **mobiliário perfeito** para atender diversas aplicações, podendo ser utilizado através de ambientações completas ou em uso individual. Os produtos **MAD.U** permitem que cada cliente tenha em seu ambiente um **móvel ideal** para sua utilização.\n\nConheça a **MAD.U** e descubra um novo conceito de mobiliário!",
+      "blockClass": "texto--made-for-you"
+    }
+  },
+  "link#page-link--made-for-you": {
+    "props": {
+      "label": "CONHEÇA NOSSAS LINHAS",
+      "href": "/nossas-linhas",
+      "blockClass": "link-ver-mais"
+    }
+  },
+  // LINHA AVALIACOES 
+  "flex-layout.row#avaliacoes": {
+    "props": {
+      "blockClass": "content-avaliacoes"
+    },
+    "children": [
+      "flex-layout.col#imagem",
+      "flex-layout.col#avaliacoes"
+    ]
+  },
+  "flex-layout.col#imagem": {
+    "props": {
+      "width": "30%",
+      "blockClass": "coluna-banner-img-avaliacoes"
+    },
+    "children": [
+      "image#avaliacoes"
+    ]
+  },
+  "image#avaliacoes": {
+    "props": {
+      "src": "assets/color-your-worldwebp.webp",
+      "blockClass": "imagem-banner-avaliacoes"
+    }
+  },
+  "flex-layout.col#avaliacoes": {
+    "props": {
+      "width": "70%",
+      "blockClass": "coluna-avaliacoes"
+    },
+    "children": [
+      "slider-layout#page-avaliacoes"
+    ]
+  },
+  "slider-layout#page-avaliacoes": {
+    "children": [
+      "flex-layout.col#avaliacao1",
+      "flex-layout.col#avaliacao2",
+      "flex-layout.col#avaliacao3",
+      "flex-layout.col#avaliacao4",
+      "flex-layout.col#avaliacao5",
+      "flex-layout.col#avaliacao6"
+    ],
+    "props": {
+      "blockClass": "slider-avaliacoes",
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 900,
+        "stopOnHover": true
+      }
+    }
+  },
+  // primeira avaliacao
+  "flex-layout.col#avaliacao1": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao1-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao1"
+    ]
+  },
+  "flex-layout.row#avaliacao1-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval1-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval1-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval1-coluna-avatar",
+      "flex-layout.col#aval1-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval1-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao1-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao1-imagem": {
+    "props": {
+      "src": "assets/fabio-fernades.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval1-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao1-nome",
+      "rich-text#avaliacao1-data"
+    ]
+  },
+  "rich-text#avaliacao1-nome": {
+    "props": {
+      "text": "Fabio Fernandes",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao1-data": {
+    "props": {
+      "text": "19/12/2022",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "flex-layout.col#google": {
+    "props": {
+      "blockClass": "avaliacao-col-google",
+      "width": "30%"
+    },
+    "children": [
+      "image#avaliacao-imagem-google"
+    ]
+  },
+  "image#avaliacao-imagem-google": {
+    "props": {
+      "src": "assets/google.svg",
+      "blockClass": "avaliacao1-imagem-google"
+    }
+  },
+  "flex-layout.row#estrelas": {
+    "props": {
+      "blockClass": "avaliacao-estrelas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#avaliacao-estrelas",
+      "image#avaliacao-estrelas",
+      "image#avaliacao-estrelas",
+      "image#avaliacao-estrelas",
+      "image#avaliacao-estrelas"
+    ]
+  },
+  "image#avaliacao-estrelas": {
+    "props": {
+      "src": "assets/f.svg",
+      "blockClass": "avaliacao-estrelas"
+    }
+  },
+  "rich-text#avaliacao1": {
+    "props": {
+      "text": "Linha de produtos desenvolvida com foco em solução de problemas reais.",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // segunda avaliacao
+  "flex-layout.col#avaliacao2": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao2-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao2"
+    ]
+  },
+  "flex-layout.row#avaliacao2-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval2-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval2-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval2-coluna-avatar",
+      "flex-layout.col#aval2-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval2-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao2-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao2-imagem": {
+    "props": {
+      "src": "assets/duda.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval2-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao2-nome",
+      "rich-text#avaliacao2-data"
+    ]
+  },
+  "rich-text#avaliacao2-nome": {
+    "props": {
+      "text": "Duda Hayashida",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao2-data": {
+    "props": {
+      "text": "09/11/2022",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "rich-text#avaliacao2": {
+    "props": {
+      "text": "Logo que conheci a empresa me apaixonei pela liberdade proporcionada pela modularidade dos produtos. Comprei uma bancada para o meu comércio e não consigo mais me imaginar sem ela, sem falar das consultoras mega atenciosas!",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // TERCEIRA avaliacao
+  "flex-layout.col#avaliacao3": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao3-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao3"
+    ]
+  },
+  "flex-layout.row#avaliacao3-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval3-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval3-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval3-coluna-avatar",
+      "flex-layout.col#aval3-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval3-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao3-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao3-imagem": {
+    "props": {
+      "src": "assets/marcela.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval3-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao3-nome",
+      "rich-text#avaliacao3-data"
+    ]
+  },
+  // NOME
+  "rich-text#avaliacao3-nome": {
+    "props": {
+      "text": "Marcela Lopes",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  // DATA
+  "rich-text#avaliacao3-data": {
+    "props": {
+      "text": "09/11/2022",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  // AVALIACAO
+  "rich-text#avaliacao3": {
+    "props": {
+      "text": "Fiz uma compra de um carro com gavetas recentemente, fui muito bem atendida. Produto de qualidade excelente! Recomendo",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // QUARTA avaliacao
+  "flex-layout.col#avaliacao4": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao4-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao4"
+    ]
+  },
+  "flex-layout.row#avaliacao4-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval4-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval4-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval4-coluna-avatar",
+      "flex-layout.col#aval4-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval4-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao4-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao4-imagem": {
+    "props": {
+      "src": "assets/fernanda.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval4-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao4-nome",
+      "rich-text#avaliacao4-data"
+    ]
+  },
+  "rich-text#avaliacao4-nome": {
+    "props": {
+      "text": "Fernanda Carvalho",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao4-data": {
+    "props": {
+      "text": "04/11/2022",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "rich-text#avaliacao4": {
+    "props": {
+      "text": "Móveis perfeitos para quem busca exclusividade e comodidade na hora de montar seu consultório ou clínica. Todos os itens de mobília podem ser personalizados de acordo com a necessidade de cada profissional. Atendimento personalizado. Recomendo.",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // QUINTA avaliacao
+  "flex-layout.col#avaliacao5": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao5-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao5"
+    ]
+  },
+  "flex-layout.row#avaliacao5-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval5-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval5-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval5-coluna-avatar",
+      "flex-layout.col#aval5-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval5-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao5-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao5-imagem": {
+    "props": {
+      "src": "assets/fernando.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval5-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao5-nome",
+      "rich-text#avaliacao5-data"
+    ]
+  },
+  "rich-text#avaliacao5-nome": {
+    "props": {
+      "text": "Fernando Moreira",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao5-data": {
+    "props": {
+      "text": "04/11/2022",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "rich-text#avaliacao5": {
+    "props": {
+      "text": "Adquiri meu mobiliário para o escritório, a praticidade e a liberdade de personalizar, foram determinantes para escolha.\nCada detalhe pensado de forma minuciosa, as infinitas possibilidades de personalização, design e funcionabilidade.\nSimplesmente indescritível!\nIndico e voltarei a comprar.",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // SEXTA avaliacao
+  "flex-layout.col#avaliacao6": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao6-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao6"
+    ]
+  },
+  "flex-layout.row#avaliacao6-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval6-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval6-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval6-coluna-avatar",
+      "flex-layout.col#aval6-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval6-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao6-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao6-imagem": {
+    "props": {
+      "src": "assets/sexta.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval6-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao6-nome",
+      "rich-text#avaliacao6-data"
+    ]
+  },
+  "rich-text#avaliacao6-nome": {
+    "props": {
+      "text": "Sandro Berton",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao6-data": {
+    "props": {
+      "text": "04/11/2022",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "rich-text#avaliacao6": {
+    "props": {
+      "text": "Excelente produto. Possuem uma linha muito grande de mobiliário com muitos acessórios que permitem criar produtos muito personalizados",
+      "blockClass": "avaliacao-descricao"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "store.custom#contato": {
+    "blocks": [
+      "flex-layout.row#contato",
+      "flex-layout.row#avaliacoes"
+    ]
+  },
+  "flex-layout.row#contato": {
+    "props": {
+      "blockClass": "colunas-contato"
+    },
+    "children": [
+      "flex-layout.col#contato-col1",
+      "flex-layout.col#contato-col2"
+    ]
+  },
+  // COLUNA 1 - CONTATO
+  "flex-layout.col#contato-col1": {
+    "props": {
+      "blockClass": "contato-col1"
+    },
+    "children": [
+      "rich-text#contato-titulo",
+      "rich-text#contato-texto",
+      "flex-layout.row#contato-contatos"
+    ]
+  },
+  "rich-text#contato-titulo": {
+    "props": {
+      "text": "Quer saber mais? Entre em\n contato com a gente!",
+      "blockClass": "contato-titulo"
+    }
+  },
+  "rich-text#contato-texto": {
+    "props": {
+      "text": "A **MAD.U** inova com **a maior linha de mobiliário técnico do\n mundo.** São milhões de possibilidades de configurações, através de\n módulos, acessórios e cores, criando o mobiliário perfeito para as\n mais diversas necessidades.",
+      "blockClass": "contato-texto"
+    }
+  },
+
+  //NUMEROS DE CONTATO
+  "flex-layout.row#contato-contatos": {
+    "props": {
+      "blockClass": "content-contato-contatos"
+    },
+    "children": [
+      "flex-layout.row#email-contato",
+      "flex-layout.row#whatsapp-contato",
+      "flex-layout.row#telefone-contato"
+    ]
+  },
+  // linha de email - contato
+  "flex-layout.row#email-contato": {
+    "props": {
+      "blockClass": "coluna-contato"
+    },
+    "children": [
+      "image#email-contato-icone",
+      "rich-text#email-contato"
+    ]
+  },
+  "image#email-contato-icone": {
+    "props": {
+      "src": "assets/mail_black.png",
+      "alt": "Icone email",
+      "blockClass": "icone-contato"
+    }
+  },
+  "rich-text#email-contato": {
+    "props": {
+      "text": "comercial@madumfm.com.br",
+      "blockClass": "whatsapp-text"
+    }
+  },
+  // linha de whatsapp
+  "flex-layout.row#whatsapp-contato": {
+    "props": {
+      "blockClass": "coluna-contato"
+    },
+    "children": [
+      "link#whatsapp-contato-link"
+    ]
+  },
+  "link#whatsapp-contato-link":{
+    "children": [
+      "image#whatsapp-contato-icone",
+      "rich-text#whatsapp-contato-numero"
+    ],
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=5541999710465",
+      "target": "_blank",
+      "blockClass": "link-contato"
+    }
+  },
+  "image#whatsapp-contato-icone":{
+    "props": {
+      "blockClass": "icone-contato",
+      "src": "assets/whatsapp-black.png",
+      "alt": "Icone whatsapp"
+    }
+  },
+  "rich-text#whatsapp-contato-numero":{
+    "props": {
+      "text": "(41) 99971-0465",
+      "blockClass": "whatsapp-text"
+    }
+  },
+  // linha de telefone
+  "flex-layout.row#telefone-contato": {
+    "props": {
+      "blockClass": "coluna-contato"
+    },
+    "children": [
+      "image#telefone-contato-icone",
+      "rich-text#telefone-contato"
+    ]
+  },
+  "image#telefone-contato-icone":{
+    "props": {
+      "blockClass": "icone-contato",
+      "src": "assets/telephone-call.png",
+      "alt": "Icone telefone"
+    }
+  },
+  "rich-text#telefone-contato":{
+    "props": {
+      "text": "0800 721 8533",
+      "blockClass": "whatsapp-text"
+    }
+  },
+    // COLUNA 2 - CONTATO
+    "flex-layout.col#contato-col2": {
+      "props": {
+        "blockClass": "contato-col2"
+      },
+      "children": [
+        // "form#contato"
+      ]
+    }
+    // "rich-text#provisoriro":{
+    //   "props": {
+    //     "text": "Provisorio - Criar form"
+    //   }
+    // }
+
+
+
+
+
+
+
+
+  // "form#contato": {
+  //   "props": {
+  //     "entity": "CL",
+  //     "schema": "Customer"
+  //   },
+  //   "blocks": [
+  //     "form-success#contato"
+  //   ],
+  //   "children": [
+  //     "form-input.text#nome",
+  //     "form-input.text#email",
+  //     // "form-input.text#telefone",
+  //     // "form-field-group#assunto",
+  //     // "form-input.textarea#mensagem",
+  //     "form-submit#contact"
+  //   ]
+  // },
+  // "form-success#contato": {
+  //   "children": [
+  //     "rich-text#success-submit"
+  //   ]
+  // },
+  // "rich-text#success-submit": {
+  //   "props": {
+  //     "text": "Obrigado por entrar em contato conosco, em breve retornaremos.",
+  //     "blockClass":"success-submit"
+  //   }
+  // },
+  // "form-input.text#nome": {
+  //   "props": {
+  //     "pointer": "#/properties/Name",
+  //     "placeholder": "Coloque seu nome completo",
+  //     "label":"Nome: "
+  //   }
+  // },
+  // "form-input.text#email": {
+  //   "props": {
+  //     "pointer": "#/properties/Email",
+  //     "placeholder":"Digite seu e-mail",
+  //     "label":"E-mail: "
+  //   }
+  // },
+  // "form-input.text#telefone": {
+  //   "props": {
+  //     "pointer": "#/properties/phone",
+  //     "placeholder":"Digite seu telefone",
+  //     "label": "Telefone: "
+  //   }
+  // },
+  // "form-field-group#assunto": {
+  //   "props": {
+  //     "pointer": "#/properties/assunto",
+  //     "uiSchema":"select",
+  //     "label": "Assunto: "
+  //   }
+  // },
+  // "form-input.textarea#mensagem": {
+  //   "props": {
+  //     "pointer": "#/properties/mensagem",
+  //     "label": "Mensagem: ",
+  //     "placeholder":"Deixe aqui sua pergunta"
+  //   }
+  // },
+  // "form-submit#contact": {
+  //   "props": {
+  //     "label": "Enviar"
+  //   }
+  // }
+}

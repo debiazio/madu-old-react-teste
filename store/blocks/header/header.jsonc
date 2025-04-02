@@ -1,0 +1,276 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header#topo-home": {
+    "blocks": [
+      "header-layout.desktop#topo-home",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop#topo-home": {
+    "children": [
+      "sticky-layout#3-desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#3-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "rich-text#notification-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#tel",
+      "flex-layout.col#whatsapp",
+      "flex-layout.col#email"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "notification",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#notification-bar": {
+    "props": {
+      "text": "A maior linha de mobiliário técnico do mundo!",
+      "blockClass": "texto-notification-bar"
+    }
+  },
+  "flex-layout.row#spacer": {
+    "props": {
+      "blockClass": "spacer-header-notification"
+    }
+  },
+  "flex-layout.col#tel": {
+    "props": {
+      "blockClass": "coluna-tel-notif"
+    },
+    "children": [
+      "image#telefone",
+      "rich-text#0800"
+    ]
+  },
+  "flex-layout.col#whatsapp": {
+    "props": {
+      "blockClass": "coluna-tel-notif"
+    },
+    "children": [
+      "link#whatsapp-header"
+    ]
+  },
+  "link#whatsapp-header": {
+    "props": {
+      "blockClass": "whats-header",
+      "href": "https://api.whatsapp.com/send?phone=5541999710465"
+    },
+    "children": [
+      "image#whatsapp",
+      "rich-text#numero-whatsapp"
+    ]
+  },
+  "flex-layout.col#email": {
+    "props": {
+      "blockClass": "coluna-tel-notif"
+    },
+    "children": [
+      "image#email",
+      "rich-text#email"
+    ]
+  },
+  "image#telefone": {
+    "props": {
+      "src": "assets/phone-call.svg",
+      "alt": "Ícone telefone",
+      "blockClass": [
+        "icone-telefone",
+        "icone-notification"
+      ]
+    }
+  },
+  "image#whatsapp": {
+    "props": {
+      "src": "assets/whatsapp.svg",
+      "alt": "Ícone whatsapp",
+      "blockClass": "icone-notification"
+    }
+  },
+  "image#email": {
+    "props": {
+      "src": "assets/mail.svg",
+      "alt": "Ícone whatsapp",
+      "blockClass": "icone-notification"
+    }
+  },
+  "rich-text#0800": {
+    "props": {
+      "text": "0800 721 8533",
+      "blockClass": "texto-notification-bar"
+    }
+  },
+  "rich-text#numero-whatsapp": {
+    "props": {
+      "text": "(41) 99687-8783",
+      "blockClass": "texto-notification-bar"
+    }
+  },
+  "rich-text#email": {
+    "props": {
+      "text": "comercial@madumfm.com.br",
+      "blockClass": "texto-notification-bar"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#3-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#3-desktop"
+    ]
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-desktop"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo MADU",
+      "href": "/",
+      "url": "assets/logo-madu.webp",
+      "width": "302",
+      "height": "119"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Buscar..."
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "maxSuggestedProducts": 2,
+      "productLayout": "HORIZONTAL"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "sticky-layout#2-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile":{
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobile-notification-bar"
+    },
+    "children": [
+      "rich-text#notification-bar"
+    ]
+  },
+
+  "sticky-layout#2-mobile": {
+    "children": [
+      "flex-layout.row#2-mobile",
+      "flex-layout.row#3-mobile"
+    ]
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "logo#mobile",
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#3-mobile": {
+    "children": [
+      "login",      
+      "minicart.v2",
+      "drawer"
+    ],
+    "props": {
+      "blockClass": [
+        "main-header-mobile",
+        "main-header-mobile-2"
+      ],
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo MADU",
+      "href": "/",
+      "url": "assets/logo-madu.webp",
+      "width": "146",
+      "height": "57"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#made-for-you-footer",
+      "menu-item#politica-de-privacidade",
+      "menu-item#politica-troca-devol",
+      "menu-item#entregas",
+      "menu-item#formas-pagamento",
+      "menu-item#observacoes"
+
+    ]
+  },
+  "menu-item#made-for-you-footer": {
+    "props": {
+      "id": "menu-item-madeforyou-footer-footer",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item-footer-inst",
+      "itemProps": {
+        "type": "internal",
+        "href": "/made-for-you",
+        "noFollow": false,
+        "tagTitle": "Made For You",
+        "text": "Made For You"
+      }
+    }
+  },
+  "menu-item#politica-de-privacidade": {
+    "props": {
+      "id": "menu-item-politica-de-privacidade",
+      "blockClass": "menu-item-footer-inst",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": true,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#politica-troca-devol": {
+    "props": {
+      "id": "menu-item-politica-troca-devol",
+      "blockClass": "menu-item-footer-inst",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": true,
+        "tagTitle": "Política de Trocas e Devoluções",
+        "text": "Política de Trocas e Devoluções"
+      }
+    }
+  },
+  "menu-item#entregas": {
+    "props": {
+      "id": "menu-item-entregas",
+      "blockClass": "menu-item-footer-inst",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-entregas",
+        "noFollow": true,
+        "tagTitle": "Política de Entregas",
+        "text": "Política de Entregas"
+      }
+    }
+  },
+  "menu-item#formas-pagamento": {
+    "props": {
+      "id": "menu-item-formas-pagamento",
+      "blockClass": "menu-item-footer-inst",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/formas-de-pagamento",
+        "noFollow": true,
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
+      }
+    }
+  },
+  "menu-item#observacoes": {
+    "props": {
+      "id": "menu-item-observacoes",
+      "blockClass": "menu-item-footer-inst",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/observacoes",
+        "noFollow": true,
+        "tagTitle": "Observações",
+        "text": "Observações"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile"
+    },
+    "children": [
+      "menu-item#institucional-mobile",
+      "menu-item#produtos-mobile",
+      "menu-item#contato-mobile"
+    ]
+  },
+
+  "menu-item#institucional-mobile": {
+    "props": {
+      "id": "menu-item-institucional-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucional-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucional-mobile": {
+    "children": ["vtex.menu@2.x:menu#institucional-mobile"]
+  },
+  "vtex.menu@2.x:menu#institucional-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#made-for-you-footer",
+      "menu-item#politica-de-privacidade",
+      "menu-item#politica-troca-devol",
+      "menu-item#entregas",
+      "menu-item#formas-pagamento",
+      "menu-item#observacoes"
+    ]
+  },
+
+
+
+  "menu-item#produtos-mobile": {
+    "props": {
+      "id": "menu-item-produtos-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Produtos",
+        "text": "Produtos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#produtos-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#produtos-mobile": {
+    "children": ["vtex.menu@2.x:menu#produtos-mobile"]
+  },
+  "vtex.menu@2.x:menu#produtos-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#produtos-footer",
+      "menu-item#colecao-footer",
+      "menu-item#feminino-footer",
+      "menu-item#acessorios-footer",
+      "menu-item#clube-footer",
+      "menu-item#summer-sale-footer"
+    ]
+  },
+
+  "menu-item#contato-mobile": {
+    "props": {
+      "id": "menu-item-contato-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contato-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#contato-mobile": {
+    "children": ["vtex.menu@2.x:menu#contato-mobile"]
+  },
+  "vtex.menu@2.x:menu#contato-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "link#fone-footer",
+      "link#e-mail-footer"
+    ]
+  },
+
+
+  "disclosure-content#footer-payments":{
+    "children": [
+      "image#payments"
+    ],
+    "props": {
+      "blockClass":"footer-payments"
+    }
+  }
+}

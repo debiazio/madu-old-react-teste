@@ -1,0 +1,14 @@
+.triggerContainer--guia-de-medidas {
+  border-bottom: 1px solid #D9D8D7;
+}
+
+.paperNotFullScreen {
+  max-width: 80vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .paperNotFullScreen {
+    margin: 0!important;
+  }
+
+}

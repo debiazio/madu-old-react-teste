@@ -1,0 +1,20 @@
+.container--sticky-header{
+    background:#F7F7F7;
+}
+
+/* .wrapper--sticky-header{
+  display: flex;
+  flex-direction: row;
+  width: 83rem;
+  justify-content: center;
+} */
+
+@media screen and (max-width: 1024px) {
+  .wrapper--stuck{
+    max-width: 100%;
+  }
+
+  .container{
+    width: fit-content;
+  }
+}

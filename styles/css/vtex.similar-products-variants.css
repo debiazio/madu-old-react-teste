@@ -1,0 +1,20 @@
+.img--similar-variant{
+    height: 80px;
+}
+
+
+.title--similar-variant::before {
+    content: "Outras variações do produto";
+    display: block;
+  }
+  
+  .title--similar-variant {
+    visibility: hidden;
+    position: relative;
+  }
+  
+  .title--similar-variant::before {
+    visibility: visible;
+    position: absolute;
+  }
+  

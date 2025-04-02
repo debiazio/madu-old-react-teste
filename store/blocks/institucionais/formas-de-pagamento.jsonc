@@ -1,0 +1,37 @@
+{
+  "store.custom#formas-de-pagamento": {
+    "blocks": [
+      "flex-layout.row#banner-formas-de-pagamento",
+      "flex-layout.row#formas-de-pagamento"
+    ]
+  },
+  "flex-layout.row#banner-formas-de-pagamento":{
+    "props": {
+      "blockClass": "banner-institucionais",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#banner-formas-pagamento"
+    ]
+  },
+  "rich-text#banner-formas-pagamento":{
+    "props": {
+      "blockClass": "titulo-institucionais",
+      "text": "## Formas de Pagamento"
+    }
+  },
+  "flex-layout.row#formas-de-pagamento":{
+    "props": {
+      "blockClass": "content-institucionais"
+    },
+    "children": [
+      "rich-text#formas-de-pagamento"
+    ]
+  },
+  "rich-text#formas-de-pagamento":{
+    "props": {
+      "blockClass": "texto-intitucionais",
+      "text": "## **Formas de Pagamento**\n\nA loja virtual da MAD.U oferece a você diversas opções para seu conforto e facilidade.\n\n**Cartão de crédito:** \n\nAceitamos o pagamento nas bandeiras Visa, Mastercard, Diners, Elo, Amex e Hipercard e com a possibilidade de parcelamento em até 10x sem juros. O valor da parcela mínima a ser paga é definida pelo sistema no momento da compra. \n\nCompras feitas no cartão de crédito, via de regra, tem aprovação em até 2 (duas) horas, podendo chegar em até 48 horas úteis. \n\n**Observações:** \n\nÉ muito importante que os dados cadastrais, inseridos no momento da compra sejam os mesmos do titular do cartão. \n\nOptando em parcelar sua compra, é importante considerar que o valor total da compra deve estar dentro do limite total do crédito disponível em seu cartão. \n\nA autorização da compra é feita por sua instituição financeira, não sendo repassada a loja os motivos de cancelamento ou problemas com seu cartão. Nestes casos, você pode entrar em contato com sua instituição financeira solicitando o aumento do seu limite de crédito ou optar por outra forma de pagamento. \n\n**Boleto bancário à vista e PIX:** \n\nA compra também pode ser realizada através de Boleto Bancário ou PIX com 5% de desconto. \n\nCompras realizadas no boleto à vista, o prazo de aprovação pode chegar em até 72 horas. \n\n**Atenção:** Optando por pagar no cartão de crédito ou boleto à vista, em alguns casos neste período, nossa intermediadora **PAGAR.ME** pode entrar em contato por telefone ou via SMS com o cliente para confirmar os dados cadastrados no momento da compra, garantindo sua segurança. \n\n"
+    }
+  }
+}

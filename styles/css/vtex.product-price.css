@@ -1,0 +1,25 @@
+.listPrice {
+  color: #7B7979;
+  margin-bottom: 5px;
+  font-size: 13px;
+  display:block;
+}
+.sellingPriceValue--summary,
+.sellingPriceValue{
+  color:#D9D8D7;
+  font:16px/1 "Montserrat Semibold";
+  margin:0 0 10px;
+  display:block;
+}
+.installments--summary{
+  color:#7B7979;
+  font-size:13px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--selling-price) .sellingPriceValue{
+  font-size:25px;
+  margin:0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--selling-price) .installments{
+  color:#7B7979;
+  font-size:13px;
+}

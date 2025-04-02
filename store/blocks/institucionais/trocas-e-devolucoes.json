@@ -1,0 +1,37 @@
+{
+  "store.custom#trocas-e-devolucoes": {
+    "blocks": [
+      "flex-layout.row#banner-trocas-devolucoes",
+      "flex-layout.row#trocas-e-devolucoes"
+    ]
+  },
+  "flex-layout.row#banner-trocas-devolucoes":{
+    "props": {
+      "blockClass": "banner-institucionais",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#banner-trocas-devolucoes"
+    ]
+  },
+  "rich-text#banner-trocas-devolucoes":{
+    "props": {
+      "blockClass": "titulo-institucionais",
+      "text": "## Trocas e Devoluções"
+    }
+  },
+  "flex-layout.row#trocas-e-devolucoes":{
+    "props": {
+      "blockClass": "content-institucionais"
+    },
+    "children": [
+      "rich-text#trocas-e-devolucoes"
+    ]
+  },
+  "rich-text#trocas-e-devolucoes":{
+    "props": {
+      "blockClass": "texto-intitucionais",
+      "text": "## **Trocas e Devoluções**\n\nEsta solicitação deve ser realizada diretamente a nossa Central de Atendimento no telefone 0800 721 8533.\n\nO prazo para solicitação de troca ou devolução é de 7(sete) dias corridos a partir da data de recebimento do produto. Após este prazo, o contato deve ser feito diretamente com o nosso SAC. \n\nNo caso de solicitação de devolução ou desistência da compra dentro do prazo de 7 dias corridos, após análise dos motivos, iniciaremos o processo de reembolso/troca, onde, primeiramente será feita a coleta do produto para só então realizarmos o reembolso ou envio de novo equipamento. \n\nOs produtos MAD.U possuem garantia contra defeitos de fabricação pelo prazo legal de 90 dias, acrescido de mais 270 dias de garantia adicional pela fábrica, totalizando 1 (um) ano de garantia. \n\nHavendo ocorrência de eventual vício de produto dentro do prazo de garantia legal (90 dias), o cliente deverá entrar em contato com a MAD.U, cuja equipe responsável fará uma investigação e análise do caso, podendo primeiramente solucionar a tratativa através de vídeo chamadas ou indicar uma assistência técnica autorizada. \n\nNão havendo a solução prévia do chamado dentro do prazo legal e sendo o caso de realização de troca, o produto será coletado pela MAD.U, onde primeiramente será analisado pela equipe técnica, e, no caso de ser constatado eventual vício, e não havendo violação as normas contidas no manual de instruções, não havendo quaisquer indícios de mau uso, ou qualquer outra irregularidade que comprometa a integridade do equipamento por parte do usuário, a MAD.U aceitará a solicitação de troca. \n\nCaso seja constatada qualquer divergência dos termos acima, a MAD.U se reserva no direito de enviar o produto novamente ao endereço de entrega sem a troca do item, sendo os custos deste reenvio cobrados do cliente. \n\nEm casos de trocas ou devoluções, o produto será coletado por uma empresa transportadora autorizada pela MAD.U no endereço de entrega que consta no DANFE. Em ambos os casos o produto deve estar em sua embalagem original, sem indícios de mau uso, com os acessórios que o acompanham. Para sua segurança, exija que o transportador lhe apresente a Nota Fiscal de Coleta, onde constará a descrição do item a ser coletado. O produto não será coletado caso esteja em embalagem inapropriada. \n\nNa indisponibilidade do produto para troca no momento da solicitação, o cliente deverá estar ciente de que o pode existir um prazo para fabricação do produto de acordo com o modelo e voltagem, que pode levar até 25 (vinte e cinco) dias úteis. \n\nConfira sempre a nota fiscal e os produtos no ato da entrega. As embalagens devem ser avaliadas e, em caso de avaria ou violação detectada, recuse a entrega, faça uma ressalva no verso da Nota Fiscal do produto e entre em contato imediatamente com nossa Central de Atendimento pelo Telefone 0800 721 8533. \n\nRecuse o recebimento do produto e entre em contato com a nossa Central de Atendimento no telefone 0800 721 8533, caso constate alguma das situações abaixo: \n• Produto avariado no transporte; \n• Embalagem violada; \n• Produto em desacordo com o pedido. \nEm caso de desistência de compra solicitadas dentro do prazo legal, o valor do produto será devolvido de acordo com a forma de pagamento utilizada na compra e desde que observadas as condições descritas abaixo: \n\nCartão de Crédito: O estorno poderá ocorrer em até 2 (duas) faturas subsequentes. Este procedimento é de responsabilidade da administradora do cartão utilizado. \n\nPix, Transferência Bancária ou Boleto Bancário à vista: O estorno será feito em conta corrente em até 5 (cinco) dias após o recebimento da mercadoria pela MAD.U. Não será concedido crédito a terceiros. \n\nAVISO: Não será efetivado ressarcimento em conta bancária de terceiros. \n\nEm caso de devolução o frete é de responsabilidade do cliente."
+    }
+  }
+}

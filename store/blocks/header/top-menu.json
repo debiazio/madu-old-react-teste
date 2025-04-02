@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#2-desktop":{
+    "props": {
+      "blockClass": "topbar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-meio-desktop",
+
+      "flex-layout.col#spacer",
+      "flex-layout.col#2-desktop-col-2"
+    ]
+  },
+  "flex-layout.row#linha-meio-desktop": {
+    "props": {
+      "blockClass": "header-logo-pesquisa-account",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar"
+    ]
+  },
+  "flex-layout.col#2-desktop-col-1":{
+    "props": {
+      "blockClass": "topbar"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#top-menu"
+    ]
+  },
+  "vtex.menu@2.x:menu#top-menu": {
+    "props": {
+      "blockClass": "topbar"
+    },
+    "children": [
+
+    ]
+  },
+  
+  "flex-layout.col#2-desktop-col-2":{
+    "props": {
+      "blockClass": ["topbar", "topbar-right"],
+      "width":"35%"
+    },
+    "children": [
+      "flex-layout.row#2-desktop-col-2-1"
+    ]
+  },
+  "flex-layout.row#2-desktop-col-2-1":{
+    "children": [
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "right"
+    }
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Minha Conta",
+      "showIconProfile":true,
+      "optionsTitle":"Acesse sua conta",
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Receba sua chave por e-mail",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "accessCodePlaceholder":"Insira o código de acesso",
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass": "minha-conta"
+    }
+  }
+}

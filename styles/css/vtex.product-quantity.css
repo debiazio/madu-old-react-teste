@@ -1,0 +1,14 @@
+.quantitySelectorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input),
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button),
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+  height: 40px;
+  background-color: white;
+  border: 1px solid #efefef;
+}
